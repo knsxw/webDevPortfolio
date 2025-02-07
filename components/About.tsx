@@ -9,7 +9,7 @@ const About = () => {
           <div className="md:w-1/2 mb-8 md:mb-0">
             <div className="relative w-64 h-64 mx-auto zoom-container">
               <Image
-                src="/profile-picture.jpg"
+                src="/profile-picture.png"
                 alt="Khine Khant - Full Stack Developer"
                 fill
                 className="rounded-2xl object-cover object-center zoom-image"
