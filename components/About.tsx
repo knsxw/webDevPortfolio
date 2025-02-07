@@ -20,9 +20,9 @@ const About = () => {
           </div>
           <div className="md:w-1/2">
             <p className="text-lg mb-4">
-              Hi, I'm Khine Khant, a passionate full stack web developer. I love
-              creating beautiful, functional, and user-friendly websites and
-              applications.
+              Hi, I&apos;m Khine Khant, a passionate full stack web developer. I
+              love creating beautiful, functional, and user-friendly websites
+              and applications.
             </p>
             <p className="text-lg">
               When I'm not coding, you can find me playing music, reading books,

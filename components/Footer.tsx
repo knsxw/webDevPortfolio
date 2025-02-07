@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter } from "lucide-react"
+import { Github, Linkedin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,19 +9,27 @@ const Footer = () => {
             <p>&copy; 2025 Khine Khant. All rights reserved.</p>
           </div>
           <div className="flex space-x-4">
-            <a href="https://github.com/knsxw" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <a
+              href="https://github.com/knsxw"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-400"
+            >
               <Github />
             </a>
-            <a href="https://www.linkedin.com/in/khine-khant-1571xyz/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
+            <a
+              href="https://www.linkedin.com/in/khine-khant-1571xyz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-gray-400"
+            >
               <Linkedin />
             </a>
-            
           </div>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
-
+export default Footer;
