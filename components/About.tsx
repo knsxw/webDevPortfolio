@@ -25,8 +25,8 @@ const About = () => {
               and applications.
             </p>
             <p className="text-lg">
-              When I'm not coding, you can find me playing music, reading books,
-              or experimenting with new web technologies.
+              When I&apos;m not coding, you can find me playing music, reading
+              books, or experimenting with new web technologies.
             </p>
           </div>
         </div>
