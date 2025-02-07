@@ -1,9 +1,9 @@
-"use client"
-import { useState } from "react"
-import { Menu, X } from "lucide-react"
+"use client";
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <header className="bg-white shadow-sm">
@@ -25,29 +25,43 @@ const Header = () => {
             Contact
           </a>
         </nav>
-        <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>
+        <button
+          className="md:hidden"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
           {isMenuOpen ? <X /> : <Menu />}
         </button>
       </div>
       {isMenuOpen && (
         <nav className="md:hidden bg-white py-4">
-          <a href="#about" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">
+          <a
+            href="#about"
+            className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >
             About
           </a>
-          <a href="#skills" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">
+          <a
+            href="#skills"
+            className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >
             Skills
           </a>
-          <a href="#projects" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">
+          <a
+            href="#projects"
+            className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >
             Projects
           </a>
-          <a href="#contact" className="block px-4 py-2 text-gray-600 hover:bg-gray-100">
+          <a
+            href="#contact"
+            className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+          >
             Contact
           </a>
         </nav>
       )}
     </header>
-  )
-}
+  );
+};
 
-export default Header
-
+export default Header;
