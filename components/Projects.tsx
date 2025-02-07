@@ -21,7 +21,7 @@ const projects = [
   {
     title: "IP Address Tracker",
     description:
-      "A weather app that displays current and forecasted weather data",
+      "A web-based tool that allows users to retrieve detailed information about an IP address. By entering an IP address, users can access data such as the geographical location, ISP (Internet Service Provider), city, region, and country.",
     image: "/iptracker.png",
     github: "https://github.com/knsxw/IpAddressTracker",
     live: "https://iptracker.ksx.me/",
